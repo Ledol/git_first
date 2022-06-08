@@ -1,0 +1,23 @@
+/*indexOf() can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, quickCheck, that takes an array and an element as arguments. Modify the function using indexOf() so that it returns true if the passed element exists on the array, and false if it does not. */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Check For The Presence of an Element With indexOf()</title>
+</head>
+<body>
+	<script>
+function quickCheck(arr, elem) {
+    if (arr.indexOf(elem) !== -1) {
+   return true;
+ } else {
+   return false;
+ }
+}
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+	</script>
+</body>
+</html>
+
